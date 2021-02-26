@@ -16,4 +16,8 @@ Function takes a string, splits into single characters in an array, reverses and
 
 Function takes an array and loops through the an array of integers. Each loop takes integer [i] and integer [i + 1] (integer to the right), multiplies it and checks to see if it is larger than then the previous product. Once loop is complete, it returns the largest product based on adjacent elements in the array.
 
-## 5. 
+## 5. shapeArea
+
+Function finds the area of a polygon that multiplies by adding to its rim. To find the area, add the area of the previous polygon area (n -1) ^ 2 with the area that surrounds its rim n ^ 2.
+
+
