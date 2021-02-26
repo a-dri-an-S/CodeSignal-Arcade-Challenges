@@ -47,3 +47,7 @@ Function takes an array and sorts non-negative integers into ascending order. Fi
 
 ## 13 reverseInParentheses
 
+## 14 alternatingSums
+
+Function takes an array, splits it into two alternating arrays. It starts by iterating through the given array and splitting it up into two arrays by even and odd indexes. Then it returns the sum of each array, separate from each other into a new array with even in index 0 and off at index 1.
+
