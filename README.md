@@ -45,3 +45,5 @@ Function sums first half of an integer and compares it with the sum of the secon
 
 Function takes an array and sorts non-negative integers into ascending order. First, the array is split into 2 separate arrays, one for trees and the other for peoples heights. Next, it sorts the array of heights into ascending order. Finally, the trees are spliced back in at their original indexes. 
 
+## 13 reverseInParentheses
+
