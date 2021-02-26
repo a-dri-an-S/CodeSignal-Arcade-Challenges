@@ -41,3 +41,7 @@ Function finds common characters between two strings and returns the count. Brea
 
 Function sums first half of an integer and compares it with the sum of the second half and checks if sums are equal(true) or not (false). Function takes the integer and finds the half way point (number of digits / 2), turns integer into array of separate characters. Splice method was used to extract 1st half of array as its sum and checks it against the sum of the second half of the array. 
 
+## 12 sortByHeight
+
+Function takes an array and sorts non-negative integers into ascending order. First, the array is split into 2 separate arrays, one for trees and the other for peoples heights. Next, it sorts the array of heights into ascending order. Finally, the trees are spliced back in at their original indexes. 
+
