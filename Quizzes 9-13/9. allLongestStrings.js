@@ -1,3 +1,5 @@
+// 9. Given an array of strings, return another array containing all of its longest strings.
+
 function allLongestStrings(inputArray) {
     let maxStrLength = 0;
     // loop through array to find the longest string length

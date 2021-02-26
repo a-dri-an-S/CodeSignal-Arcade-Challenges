@@ -26,3 +26,13 @@ Function subtracts smallest statue height by the tallest, takes the remainder an
 
 ## 7. almostIncreasingSequence
 
+
+## 8. matrixElementsSum
+
+## 9. allLongestStrings
+
+Function finds the longest string and created new array populated with longest strings. For loop is used to iterate through array and find longest character string by checking if string length is larger than previous string. Once longest string is found, it is filtered into new array by string length.
+
+## 10. commonCharacterCount
+
+Function finds common characters between two strings and returns the count. Breaks string into arrays, for loop is used to iterate through string 1 to find common character in string 2. When common character found, count is incremented by 1 and character is deleted from str 2 to avoid duplicate counts. 
