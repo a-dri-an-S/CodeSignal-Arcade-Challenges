@@ -11,3 +11,9 @@ This function returns the century a given year is in. It takes the year and divi
 ## 3. checkPalindrome
 
 Function takes a string, splits into single characters in an array, reverses and the adds characters back into a single string. That string is then checked to see if it is an exact copy of the original string. If they are exact, it returns true, else it returns false. 
+
+## 4. adjacentElementsProduct
+
+Function takes an array and loops through the an array of integers. Each loop takes integer [i] and integer [i + 1] (integer to the right), multiplies it and checks to see if it is larger than then the previous product. Once loop is complete, it returns the largest product based on adjacent elements in the array.
+
+## 5. 
