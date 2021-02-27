@@ -75,3 +75,10 @@ Function takes a string and checks for proper IPv4 naming rules. First, it split
 
 ## 22 avoidObstacles
 
+## 23
+
+## 24
+
+## 25 arrayReplace
+
+Function takes an array and replace a given number with another. Function loops through given array and checks for elemToReplace. If false, pushed integer to new array, but if true, pushes substitutionElem instead of current integer. Return new array with substituted integer.
