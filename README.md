@@ -82,3 +82,8 @@ Function takes a string and checks for proper IPv4 naming rules. First, it split
 ## 25 arrayReplace
 
 Function takes an array and replace a given number with another. Function loops through given array and checks for elemToReplace. If false, pushed integer to new array, but if true, pushes substitutionElem instead of current integer. Return new array with substituted integer.
+
+## 26. evenDigitsOnly
+
+Function takes an integer and checks if all digits are even. First, integer is converted to string and split into individual digits in an array. The map method is to check if single digits are even and creates new array with booleans, reflecting whether digits was even or not. If false is included in array it returns false, else it returns true.
+
