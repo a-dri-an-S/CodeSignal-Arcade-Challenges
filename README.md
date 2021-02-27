@@ -69,3 +69,7 @@ Function takes 4 numbers (arm strengths) and compares if first set is equal to s
 
 Function takes an array and returns the maximal absolute difference between two adjacent elements. It loops through the given array and finds the difference of two adjacent elements and pushes them into a new array. Then it returns the maximal difference, Math.max() + spread operator.
 
+## 21 isIPv4Address
+
+Function takes a string and checks for proper IPv4 naming rules. First, it splits the string into an array and it checks if there are 4 integers in the IP address. Then it loops through the array and checks for the following: if it's a non-integer, leading 0's , no larger than an 8-bit integer and negative integers. If non of those rules are applicable, it returns true. 
+
