@@ -60,3 +60,7 @@ Function takes a given matrix and creates a border of asterisks around it. First
 ## 17 arrayChange
 
 ## 18 palindromeRearranging
+
+## 19 areEquallyStrong
+
+Function takes 4 numbers (arm strengths) and compares if first set is equal to second set & if both are equal in strength as individuals, regardless of side. Checks if set 1 sum is equal with set 2 sum & if set 1 right side is equal to set 2 left or right side.
