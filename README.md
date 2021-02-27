@@ -64,3 +64,8 @@ Function takes a given matrix and creates a border of asterisks around it. First
 ## 19 areEquallyStrong
 
 Function takes 4 numbers (arm strengths) and compares if first set is equal to second set & if both are equal in strength as individuals, regardless of side. Checks if set 1 sum is equal with set 2 sum & if set 1 right side is equal to set 2 left or right side.
+
+## 20 arrayMaximalAdjacentDifference
+
+Function takes an array and returns the maximal absolute difference between two adjacent elements. It loops through the given array and finds the difference of two adjacent elements and pushes them into a new array. Then it returns the maximal difference, Math.max() + spread operator.
+
