@@ -73,3 +73,5 @@ Function takes an array and returns the maximal absolute difference between two 
 
 Function takes a string and checks for proper IPv4 naming rules. First, it splits the string into an array and it checks if there are 4 integers in the IP address. Then it loops through the array and checks for the following: if it's a non-integer, leading 0's , no larger than an 8-bit integer and negative integers. If non of those rules are applicable, it returns true. 
 
+## 22 avoidObstacles
+
