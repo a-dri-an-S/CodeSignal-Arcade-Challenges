@@ -56,3 +56,5 @@ Function takes an array, splits it into two alternating arrays. It starts by ite
 Function takes a given matrix and creates a border of asterisks around it. First, variable is declared that creates the top & bottom borders by taking the length of the string in the array + 2. Function then returns a new array with a new matrix with top and bottom borders hard coded into the array. In the middle, the map method takes the array and appends the asterisks to both ens of the string and spread operator spreads them out individually. 
 
 ## 16 
+
+## 17 arrayChange
