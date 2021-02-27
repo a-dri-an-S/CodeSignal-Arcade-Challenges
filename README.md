@@ -87,3 +87,8 @@ Function takes an array and replace a given number with another. Function loops 
 
 Function takes an integer and checks if all digits are even. First, integer is converted to string and split into individual digits in an array. The map method is to check if single digits are even and creates new array with booleans, reflecting whether digits was even or not. If false is included in array it returns false, else it returns true.
 
+## 27. variableName
+
+Function takes a given variable name and checks if it had been correctly written. Regex is used to include the appropriate characters and the test methods checks whether the string has these characters or not. Returns false if it finds characters not defined in the regular expression.
+
+## 28
