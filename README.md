@@ -95,3 +95,4 @@ Function takes a given variable name and checks if it had been correctly written
 
 Function takes a given string and shifts all characters up by 1 in the English alphabet, except "z", which goes back to "a". Function takes string and converts it into any array, bracket notation + spread operator. It then maps through the array incrementing the charCode by 1 and converting it into a "string" via String.fromCharCode(). It joins the array back into a string and replaces the "{" which is right adjacent to "z" and replaces it with "a".
 
+## 29 chessBoardCellColor
