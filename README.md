@@ -91,4 +91,7 @@ Function takes an integer and checks if all digits are even. First, integer is c
 
 Function takes a given variable name and checks if it had been correctly written. Regex is used to include the appropriate characters and the test methods checks whether the string has these characters or not. Returns false if it finds characters not defined in the regular expression.
 
-## 28
+## 28 alphabeticShift
+
+Function takes a given string and shifts all characters up by 1 in the English alphabet, except "z", which goes back to "a". Function takes string and converts it into any array, bracket notation + spread operator. It then maps through the array incrementing the charCode by 1 and converting it into a "string" via String.fromCharCode(). It joins the array back into a string and replaces the "{" which is right adjacent to "z" and replaces it with "a".
+
