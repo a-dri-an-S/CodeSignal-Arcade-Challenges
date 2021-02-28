@@ -152,3 +152,7 @@ Function takes string and checks for occurrences of each letter and based on alp
 Function takes a string (email address) and returns only the domain part. String is spread out into array("arr") and "domain" is declared as an empty array to hold the domain. For loop iterates through array until it reaches the "a" character, where it then slices the remaining elements of the array. Finally, domain array is joined together as a string and returned as the domain of the email address. 
 
 ## 45 buildPalindrome
+
+## 46 electionsWinners
+
+Function takes number of current votes casted + pending votes and checks for number of possible winners. "leader" is declared with the value of max votes and "ties" to hold the amount of current ties via for loop, prior to pending votes. Count is declared and holds the value of candidates that have higher votes after votes have been casted in comparison to previous leader. If none have higher counts and there was 1 tie, 1 winner is returned, unless there are more possible candidates, which then the count of possible candidates is returned. 
