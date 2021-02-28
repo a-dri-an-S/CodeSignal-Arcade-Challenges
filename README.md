@@ -125,3 +125,6 @@ Function takes a string and finds the number of different characters. new Set() 
 
 ## 37 arrayMaxConsecutiveSum
 
+## 38 growingPlant
+
+Function takes a number "desiredHeight", increments & decrements until desired height is reached and returns number of "days" taken to grow. Day and height variable are defined and given values of 0 to each. While loop increments if not at desired height and if the desired height is reached, amount of days spent growing is returned. Else, it decreases and loops through until desired height reached & number days spent growing is returned. 
