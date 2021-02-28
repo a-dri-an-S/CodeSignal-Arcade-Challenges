@@ -41,45 +41,45 @@ Function finds common characters between two strings and returns the count. Brea
 
 Function sums first half of an integer and compares it with the sum of the second half and checks if sums are equal(true) or not (false). Function takes the integer and finds the half way point (number of digits / 2), turns integer into array of separate characters. Splice method was used to extract 1st half of array as its sum and checks it against the sum of the second half of the array. 
 
-## 12 sortByHeight
+## 12. sortByHeight
 
 Function takes an array and sorts non-negative integers into ascending order. First, the array is split into 2 separate arrays, one for trees and the other for peoples heights. Next, it sorts the array of heights into ascending order. Finally, the trees are spliced back in at their original indexes. 
 
-## 13 reverseInParentheses
+## 13. reverseInParentheses
 
-## 14 alternatingSums
+## 14. alternatingSums
 
 Function takes an array, splits it into two alternating arrays. It starts by iterating through the given array and splitting it up into two arrays by even and odd indexes. Then it returns the sum of each array, separate from each other into a new array with even in index 0 and off at index 1.
 
-## 15 addBorder 
+## 15. addBorder 
 
 Function takes a given matrix and creates a border of asterisks around it. First, variable is declared that creates the top & bottom borders by taking the length of the string in the array + 2. Function then returns a new array with a new matrix with top and bottom borders hard coded into the array. In the middle, the map method takes the array and appends the asterisks to both ens of the string and spread operator spreads them out individually. 
 
-## 16 areSimilar
+## 16. areSimilar
 
-## 17 arrayChange
+## 17. arrayChange
 
-## 18 palindromeRearranging
+## 18. palindromeRearranging
 
-## 19 areEquallyStrong
+## 19. areEquallyStrong
 
 Function takes 4 numbers (arm strengths) and compares if first set is equal to second set & if both are equal in strength as individuals, regardless of side. Checks if set 1 sum is equal with set 2 sum & if set 1 right side is equal to set 2 left or right side.
 
-## 20 arrayMaximalAdjacentDifference
+## 20. arrayMaximalAdjacentDifference
 
 Function takes an array and returns the maximal absolute difference between two adjacent elements. It loops through the given array and finds the difference of two adjacent elements and pushes them into a new array. Then it returns the maximal difference, Math.max() + spread operator.
 
-## 21 isIPv4Address
+## 21. isIPv4Address
 
 Function takes a string and checks for proper IPv4 naming rules. First, it splits the string into an array and it checks if there are 4 integers in the IP address. Then it loops through the array and checks for the following: if it's a non-integer, leading 0's , no larger than an 8-bit integer and negative integers. If non of those rules are applicable, it returns true. 
 
-## 22 avoidObstacles
+## 22. avoidObstacles
 
-## 23
+## 23.
 
-## 24
+## 24.
 
-## 25 arrayReplace
+## 25. arrayReplace
 
 Function takes an array and replace a given number with another. Function loops through given array and checks for elemToReplace. If false, pushed integer to new array, but if true, pushes substitutionElem instead of current integer. Return new array with substituted integer.
 
@@ -91,54 +91,58 @@ Function takes an integer and checks if all digits are even. First, integer is c
 
 Function takes a given variable name and checks if it had been correctly written. Regex is used to include the appropriate characters and the test methods checks whether the string has these characters or not. Returns false if it finds characters not defined in the regular expression.
 
-## 28 alphabeticShift
+## 28. alphabeticShift
 
 Function takes a given string and shifts all characters up by 1 in the English alphabet, except "z", which goes back to "a". Function takes string and converts it into any array, bracket notation + spread operator. It then maps through the array incrementing the charCode by 1 and converting it into a "string" via String.fromCharCode(). It joins the array back into a string and replaces the "{" which is right adjacent to "z" and replaces it with "a".
 
-## 29 chessBoardCellColor
+## 29. chessBoardCellColor
 
-## 30 circleOfNumbers
+## 30. circleOfNumbers
 
 Function finds the radially opposite position of number "first Number" based on second number "n" if it where equally spaced in a circle. Variable "middle" is declared and assigned the dividend of "n", the half way point. If the "firstNumber" is less than the half way point, add "middle" to it, else, subtract the middle to find the radially opposite position.
 
-## 31 depositProfit
+## 31. depositProfit
 
 Functions takes a (deposit) and increases it each year by a specific (rate), adding to its initial deposit and returns the number of years it takes to reach its (threshold). Function starts by declaring a "savings" variable to store the increase of balance and a "years" variable to store the years. A while loop is used to add the balance increase and year amount until the threshold is met. then the amount of years is returned until the savings is larger than the threshold.
 
-## 32 absoluteValuesSumMinimization
+## 32. absoluteValuesSumMinimization
 
 Function takes an array, determines which element is closest to all other values and returns smallest possible answer. A forEach loop iterates through the array finding the absolute sums of differences between each element and pushes them into "res" array. It then finds the lowest possible sum (Math.min()) and returns the number with the smallest possible sum.
 
-## 33 stringsRearrangement
+## 33. stringsRearrangement
 
-## 34 extractEachKth
+## 34. extractEachKth
 
 Function removes an integer at kth element in array. "newArr" is declared as an empty array to be used to store values that aren't at kth element of array. For loop is used to iterate through array and push elements that aren't in kth element ( i % k !== 0) into "newArr".
 
-## 35 firstDigit
+## 35. firstDigit
 
 Function finds the leftmost digit in a given string. It takes the input string and uses the match method to find digits via regex and returns the first, leftmost digit.
 
-## 36 differentSymbolsNaive
+## 36. differentSymbolsNaive
 
 Function takes a string and finds the number of different characters. new Set() is spread out inside of an array and given the string "s" as an argument which returns one of each character. Length of array is used to return number of different characters. 
 
-## 37 arrayMaxConsecutiveSum
+## 37. arrayMaxConsecutiveSum
 
-## 38 growingPlant
+## 38. growingPlant
 
 Function takes a number "desiredHeight", increments & decrements until desired height is reached and returns number of "days" taken to grow. Day and height variable are defined and given values of 0 to each. While loop increments if not at desired height and if the desired height is reached, amount of days spent growing is returned. Else, it decreases and loops through until desired height reached & number days spent growing is returned. 
 
-## 39 knapsackLight
+## 39. knapsackLight
 
 Function returns most valuable item or items, depending on the weight and if either is too heavy, returns 0. First, checks if both weight are less or equal in weight and returns value summed if true. Then it checks if both are too heavy and if true, returns 0. Finally, checks which is most valuable, based on which is heavier and returns the value. 
 
-## 40 longestDigitsPrefix
+## 40. longestDigitsPrefix
 
 Function takes string and returns longest prefix containing only digits. Spreads input string into "str" array and also declares variable prefix as an empty array. Loops through array and pushes digits into prefix array until non-digits are introduced that breaks the loop. Prefix array is joined as string and returned as prefix containing digits or " ".
 
-## 41 digitDegree
+## 41. digitDegree
 
 Function takes a number and returns number of times a number is split and summed together util the sum is a single digit. Variable count tracks number of splits until sum is a single digit. Checks is a single digit and if true, returns count. If false, adds to count, splits number and sums digits together and if a single digit, the loop breaks and count is returned. If false, loop continues to iterate and add count until sum is a single digit. 
 
-## 42 bishopAndPawn
+## 42. bishopAndPawn
+
+## 43. isBeautifulString
+
+Function takes string and checks for occurrences of each letter and based on alphabetical order, if the letter that precedes the current one has appeared more times, it is considered a beautiful string. First alphabet array is declared and populated with the alphabet via for loop. Then, its checks how many times that letter has occurred and pushes the results into the letters array. Finally, it checks if the current has appeared less then the next, if so it returns false. Otherwise, it returns true. 
