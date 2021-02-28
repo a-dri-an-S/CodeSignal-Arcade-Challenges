@@ -99,3 +99,8 @@ Function takes a given string and shifts all characters up by 1 in the English a
 
 ## 30 circleOfNumbers
 
+Function finds the radially opposite position of number "first Number" based on second number "n" if it where equally spaced in a circle. Variable "middle" is declared and assigned the dividend of "n", the half way point. If the "firstNumber" is less than the half way point, add "middle" to it, else, subtract the middle to find the radially opposite position.
+
+## 31 depositProfit
+
+Functions takes a (deposit) and increases it each year by a specific (rate), adding to its initial deposit and returns the number of years it takes to reach its (threshold). Function starts by declaring a "savings" variable to store the increase of balance and a "years" variable to store the years. A while loop is used to add the balance increase and year amount until the threshold is met. then the amount of years is returned until the savings is larger than the threshold.
