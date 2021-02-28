@@ -123,3 +123,5 @@ Function finds the leftmost digit in a given string. It takes the input string a
 
 Function takes a string and finds the number of different characters. new Set() is spread out inside of an array and given the string "s" as an argument which returns one of each character. Length of array is used to return number of different characters. 
 
+## 37 arrayMaxConsecutiveSum
+
