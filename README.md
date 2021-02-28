@@ -111,3 +111,8 @@ Function takes an array, determines which element is closest to all other values
 
 ## 33 stringsRearrangement
 
+## 34 extractEachKth
+
+Function removes an integer at kth element in array. "newArr" is declared as an empty array to be used to store values that aren't at kth element of array. For loop is used to iterate through array and push elements that aren't in kth element ( i % k !== 0) into "newArr".
+
+
