@@ -146,3 +146,7 @@ Function takes a number and returns number of times a number is split and summed
 ## 43. isBeautifulString
 
 Function takes string and checks for occurrences of each letter and based on alphabetical order, if the letter that precedes the current one has appeared more times, it is considered a beautiful string. First alphabet array is declared and populated with the alphabet via for loop. Then, its checks how many times that letter has occurred and pushes the results into the letters array. Finally, it checks if the current has appeared less then the next, if so it returns false. Otherwise, it returns true. 
+
+## 44 findEmailDomain
+
+Function takes a string (email address) and returns only the domain part. String is spread out into array("arr") and "domain" is declared as an empty array to hold the domain. For loop iterates through array until it reaches the "a" character, where it then slices the remaining elements of the array. Finally, domain array is joined together as a string and returned as the domain of the email address. 
