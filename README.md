@@ -104,3 +104,8 @@ Function finds the radially opposite position of number "first Number" based on 
 ## 31 depositProfit
 
 Functions takes a (deposit) and increases it each year by a specific (rate), adding to its initial deposit and returns the number of years it takes to reach its (threshold). Function starts by declaring a "savings" variable to store the increase of balance and a "years" variable to store the years. A while loop is used to add the balance increase and year amount until the threshold is met. then the amount of years is returned until the savings is larger than the threshold.
+
+## 32 absoluteValuesSumMinimization
+
+Function takes an array, determines which element is closest to all other values and returns smallest possible answer. A forEach loop iterates through the array finding the absolute sums of differences between each element and pushes them into "res" array. It then finds the lowest possible sum (Math.min()) and returns the number with the smallest possible sum.
+
