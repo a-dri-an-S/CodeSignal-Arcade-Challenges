@@ -150,3 +150,5 @@ Function takes string and checks for occurrences of each letter and based on alp
 ## 44 findEmailDomain
 
 Function takes a string (email address) and returns only the domain part. String is spread out into array("arr") and "domain" is declared as an empty array to hold the domain. For loop iterates through array until it reaches the "a" character, where it then slices the remaining elements of the array. Finally, domain array is joined together as a string and returned as the domain of the email address. 
+
+## 45 buildPalindrome
