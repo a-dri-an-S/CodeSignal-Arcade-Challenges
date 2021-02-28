@@ -156,3 +156,6 @@ Function takes a string (email address) and returns only the domain part. String
 ## 46 electionsWinners
 
 Function takes number of current votes casted + pending votes and checks for number of possible winners. "leader" is declared with the value of max votes and "ties" to hold the amount of current ties via for loop, prior to pending votes. Count is declared and holds the value of candidates that have higher votes after votes have been casted in comparison to previous leader. If none have higher counts and there was 1 tie, 1 winner is returned, unless there are more possible candidates, which then the count of possible candidates is returned. 
+
+## 47 isMAC48Address
+
