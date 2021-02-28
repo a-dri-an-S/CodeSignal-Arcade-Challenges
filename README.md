@@ -128,3 +128,7 @@ Function takes a string and finds the number of different characters. new Set() 
 ## 38 growingPlant
 
 Function takes a number "desiredHeight", increments & decrements until desired height is reached and returns number of "days" taken to grow. Day and height variable are defined and given values of 0 to each. While loop increments if not at desired height and if the desired height is reached, amount of days spent growing is returned. Else, it decreases and loops through until desired height reached & number days spent growing is returned. 
+
+## 39 knapsackLight
+
+Function returns most valuable item or items, depending on the weight and if either is too heavy, returns 0. First, checks if both weight are less or equal in weight and returns value summed if true. Then it checks if both are too heavy and if true, returns 0. Finally, checks which is most valuable, based on which is heavier and returns the value. 
