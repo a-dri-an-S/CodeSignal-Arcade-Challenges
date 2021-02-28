@@ -136,3 +136,7 @@ Function returns most valuable item or items, depending on the weight and if eit
 ## 40 longestDigitsPrefix
 
 Function takes string and returns longest prefix containing only digits. Spreads input string into "str" array and also declares variable prefix as an empty array. Loops through array and pushes digits into prefix array until non-digits are introduced that breaks the loop. Prefix array is joined as string and returned as prefix containing digits or " ".
+
+## 41 digitDegree
+
+Function takes a number and returns number of times a number is split and summed together util the sum is a single digit. Variable count tracks number of splits until sum is a single digit. Checks is a single digit and if true, returns count. If false, adds to count, splits number and sums digits together and if a single digit, the loop breaks and count is returned. If false, loop continues to iterate and add count until sum is a single digit. 
