@@ -132,3 +132,7 @@ Function takes a number "desiredHeight", increments & decrements until desired h
 ## 39 knapsackLight
 
 Function returns most valuable item or items, depending on the weight and if either is too heavy, returns 0. First, checks if both weight are less or equal in weight and returns value summed if true. Then it checks if both are too heavy and if true, returns 0. Finally, checks which is most valuable, based on which is heavier and returns the value. 
+
+## 40 longestDigitsPrefix
+
+Function takes string and returns longest prefix containing only digits. Spreads input string into "str" array and also declares variable prefix as an empty array. Loops through array and pushes digits into prefix array until non-digits are introduced that breaks the loop. Prefix array is joined as string and returned as prefix containing digits or " ".
