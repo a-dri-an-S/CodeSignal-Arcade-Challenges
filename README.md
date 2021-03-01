@@ -171,4 +171,10 @@ Function takes a character and checks if it is a digit. Checks if symbol include
 
 Function takes a number and returns the largest number obtained by deleting 1 digit. Number is converted to string to iterate through via for loop. Initially, first character is deleted and stored in variable "string". Next, it removes 1 character by concatenating everything around it to each other and checks if largest sum is bigger than that current string that has been parsedInt. Largest sum is then returned. 
 
+## 52 longestWord
+
+Function takes a string and returns the longest substring. It matches a string against a regular expression and splits it into an array of substrings. Loops through array and checks if current string is larger than current largest string, if larger, then it sets it as the longest string. 
+
+
+
 
