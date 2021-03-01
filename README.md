@@ -183,4 +183,5 @@ Function takes a string and checks if it represents military time. It splits str
 
 Function takes a string, extracts the consecutive numbers and returns the sum. inputString is checked with regex matching only digits and creates an array populated my extracted numbers or it creates an empty array. If array has only one number, it returns that number. If array has more than one number, it returns the sum. If array is empty, it returns 0.
 
+## 55 differentSquares
 
