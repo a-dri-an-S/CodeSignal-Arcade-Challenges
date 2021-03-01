@@ -165,5 +165,8 @@ Function takes a character and checks if it is a digit. Checks if symbol include
 
 ## 49 lineEncoding
 
+## 50 chessKnight
+
+
 
 
