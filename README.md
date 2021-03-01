@@ -167,6 +167,8 @@ Function takes a character and checks if it is a digit. Checks if symbol include
 
 ## 50 chessKnight
 
+## 51 deleteDigit
 
+Function takes a number and returns the largest number obtained by deleting 1 digit. Number is converted to string to iterate through via for loop. Initially, first character is deleted and stored in variable "string". Next, it removes 1 character by concatenating everything around it to each other and checks if largest sum is bigger than that current string that has been parsedInt. Largest sum is then returned. 
 
 
