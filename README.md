@@ -163,3 +163,7 @@ Function takes number of current votes casted + pending votes and checks for num
 
 Function takes a character and checks if it is a digit. Checks if symbol includes a number via .includes and Number(), returns true or false.
 
+## 49 lineEncoding
+
+
+
