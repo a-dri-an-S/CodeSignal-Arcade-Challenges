@@ -175,6 +175,9 @@ Function takes a number and returns the largest number obtained by deleting 1 di
 
 Function takes a string and returns the longest substring. It matches a string against a regular expression and splits it into an array of substrings. Loops through array and checks if current string is larger than current largest string, if larger, then it sets it as the longest string. 
 
+## 53 validTime
+
+Function takes a string and checks if it represents military time. It splits string into hours and minutes. It then checks if hours are under 24 & minutes under 60. If true, returns true, else returns false. 
 
 
 
