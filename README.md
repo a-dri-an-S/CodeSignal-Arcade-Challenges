@@ -187,6 +187,9 @@ Function takes a string, extracts the consecutive numbers and returns the sum. i
 
 ## 56 digitsProduct
 
-
 ## 57 fileNaming
+
+## 58 messageFromBinaryCode
+
+Function takes binary code and converts it into message, string of characters. Takes binary code and breaks it up into 8  bits using regex to match pattern to break up into array at 8 character intervals. Then it maps through binary array and converts into an array of characters by converting to ASCII code -> character and joined into a string to reveal the message.
 
