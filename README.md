@@ -186,3 +186,7 @@ Function takes a string, extracts the consecutive numbers and returns the sum. i
 ## 55 differentSquares
 
 ## 56 digitsProduct
+
+
+## 57 fileNaming
+
