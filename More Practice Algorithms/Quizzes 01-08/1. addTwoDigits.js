@@ -3,5 +3,6 @@
 function addTwoDigits(n) {
     // takes integer, converts to string and breaks into array
     let numArr = n.toString().match(/.{1,1}/g);
+    // adds digits together, returns sum
     return numArr.reduce((a,b) => +(a) + +(b));
 }
