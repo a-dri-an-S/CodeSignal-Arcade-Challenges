@@ -195,3 +195,4 @@ Function takes binary code and converts it into message, string of characters. T
 
 ## 59 spiralNumbers
 
+ ## 60 sudoku
