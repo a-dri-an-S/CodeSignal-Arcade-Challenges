@@ -8,3 +8,5 @@ function arrayReplace(inputArray, elemToReplace, substitutionElem) {
     }
     return inputArray;
 }
+
+const arrayReplace = (inputArray, elemToReplace, substitutionElem) => inputArray.map(i => i === elemToReplace ? substitutionElem : i);
