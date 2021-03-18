@@ -16,3 +16,8 @@ function firstReverseTry(arr) {
     return newArr;
     
 }
+
+function firstReverseTry(arr) {
+    if (arr.length < 2) return arr;
+    return [arr[arr.length-1]].concat(arr.slice(1,arr.length-1)).concat(arr[0]);
+}
