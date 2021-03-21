@@ -5,3 +5,5 @@ function isCaseInsensitivePalindrome(str) {
     let newWord = word.split("").reverse().join("");
     return word === newWord;
 }
+
+const isCaseInsensitivePalindrome = str => str.toLowerCase() === [...str].reverse().join("").toLowerCase();
