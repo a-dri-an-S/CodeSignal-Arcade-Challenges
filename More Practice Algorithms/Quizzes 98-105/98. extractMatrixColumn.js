@@ -7,3 +7,5 @@ function extractMatrixColumn(matrix, column) {
     }
     return arr;
 }
+
+const extractMatrixColumn = (matrix, column) => matrix.map(arr => arr[column]);
