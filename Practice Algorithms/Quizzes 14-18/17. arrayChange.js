@@ -14,3 +14,32 @@ function arrayChange(inputArray) {
     }
     return moves;
 }
+
+// Using splice
+function solution(arr) {
+    let count = 0;
+    
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] > arr[i + 1]) {
+            const el = (arr[i] - arr[i + 1]) + 1;
+            arr.splice(i + 1, 1, arr[i + 1] + el);
+            count += el;
+        } else if (arr[i] === arr[i + 1]) {
+            arr.splice(i + 1, 1, arr[i + 1] + 1);
+            count++;
+        }
+    }
+    return count;
+}
+
+// SPLICE EXPLANATION
+// 1. Declare count and set it to 0
+// 2. Use a for loop to iterate through arr array until 2nd to last element is reached
+// 3. If current element at index-1 is greater than element at index-i+1, perform the following:
+//  - Declare el and set it to the difference between both elements at index-i & index-i+1 + 1 (moves it takes to increment by 1)
+//  - Use the splice() method to remove element at index-i+1 and insert new incremented element
+//  - Set count to el
+// 4. Else if, current element at index-1 IS EQUAL TO element at index-i+1, perform the following:
+//  - Use the splice() method to remove element at index-i+1 and replace it with element at said index, incremented by 1
+//  - Increment count by 1
+// 5. When loop ends, return count
