@@ -5,3 +5,18 @@ function areEquallyStrong(yourLeft, yourRight, friendsLeft, friendsRight) {
     return yourLeft+yourRight === friendsLeft+friendsRight && (yourRight === friendsLeft || yourRight === friendsRight);
 }
 
+// SOLUTION W/ IF STATEMENTS
+
+function solution(yourLeft, yourRight, friendsLeft, friendsRight) {
+    
+    
+    if ((yourLeft === friendsLeft || yourLeft === friendsRight) && (yourRight === friendsLeft || yourRight === friendsRight)) {
+        return true;
+    } else {
+        return false;    
+    }
+    
+}
+
+// 1. If yourLeft is equal to either friendsRight OR friendsLeft AND yourRight is equal to either friendsRight OR friendsLeft, return true
+// 2. If either condition is false, return false
