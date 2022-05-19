@@ -15,4 +15,17 @@ function arrayReplace(inputArray, elemToReplace, substitutionElem) {
     return newArr;
 }
 
+// SPLICE SOLUTION
+function solution(arr, replace, sub) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === replace) {
+            arr.splice(i, 1, sub);
+        }
+    }
+    return arr;
+}
+// 1. Use a for loop to iterate through arr array
+// 2. If current element at index-i IS EQUALS TO replace, remove element and replace with sub
+// - Use splice() method to remove element at index-i and replace with sub
+// 3. When loop ends, return arr
 
